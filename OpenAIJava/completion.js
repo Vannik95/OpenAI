@@ -10,7 +10,7 @@ const openai = new OpenAI(OPENAI_API_KEY);
 (async () => {
     const gptResponse = await openai.complete({
         engine: 'text-davinci-003',
-        prompt: 'write a name for a dog',
+        prompt: 'nuovo prompt',
         maxTokens: 6
         
     });
